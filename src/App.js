@@ -103,7 +103,7 @@ const App = () => {
       </Box>
 
 
-      <Button onClick={resetWeatherData} variant="contained" color="secondary" style={{ marginLeft: '10px' }}>
+      <Button onClick={resetWeatherData} variant="contained" color="primary" style={{ marginLeft: '10px' }}>
         Reset
       </Button>
       <Dialog open={openDialog} onClose={handleCloseDialog}>
